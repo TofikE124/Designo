@@ -42,7 +42,7 @@ const ContactPage = () => {
 
   const [contactSucess, setContactSucess] = useState(false);
 
-  function onSubmit(data: FormData) {
+  function onSubmit() {
     setContactSucess(true);
   }
   return (

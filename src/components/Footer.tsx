@@ -7,7 +7,6 @@ import {
 } from "react-icons/bi";
 
 import logoLight from "../../public/assets/shared/desktop/logo-light.png";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {

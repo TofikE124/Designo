@@ -1,4 +1,3 @@
-import { activate } from "firebase/remote-config";
 import logoDark from "../../public/assets/shared/desktop/logo-dark.png";
 import Backdrop from "./Backdrop";
 import { useState } from "react";

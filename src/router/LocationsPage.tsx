@@ -1,16 +1,9 @@
-import canadaDesktopImage from "../../public/assets/locations/desktop/image-map-canada.png";
-import australiaDesktopImage from "../../public/assets/locations/desktop/image-map-australia.png";
-import ukDesktopImage from "../../public/assets/locations/desktop/image-map-united-kingdom.png";
-
-import canadaTabletImage from "../../public/assets/locations/tablet/image-map-canada.png";
-import australiaTabletImage from "../../public/assets/locations/tablet/image-map-australia.png";
-import ukTabletImage from "../../public/assets/locations/tablet/image-map-uk.png";
 import PageFooter from "../components/PageFooter";
 
 import "leaflet/dist/leaflet.css";
 import { MapContainer } from "react-leaflet/MapContainer";
 import { TileLayer } from "react-leaflet/TileLayer";
-import { Marker, Popup } from "react-leaflet";
+import { Marker } from "react-leaflet";
 
 const LocationsPage = () => {
   return (
